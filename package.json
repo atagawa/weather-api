@@ -4,13 +4,15 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "preview": "nuxt preview",
+    "deploy": "gh-pages -d .output/public"
   },
   "devDependencies": {
     "nuxt": "3.0.0-rc.3"
   },
   "dependencies": {
     "@nuxt/types": "^2.15.8",
+    "gh-pages": "^4.0.0",
     "prettier": "^2.6.2"
   }
 }
