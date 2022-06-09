@@ -2,7 +2,8 @@ import { defineNuxtConfig } from "nuxt";
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
+  target: "static",
   app: {
-    cdnURL: "https://atagawa.github.io/weather-api",
+    cdnURL: "/weather-api/",
   },
 });
